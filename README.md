@@ -1,5 +1,5 @@
 # kattis
-Collection of competitive programming/ informatics competition questions
+My solutions to competitive programming problems on Kattis
 
 | Problem  | Source | Language |
 | ------------- | ------------- | ----------|
