@@ -3,6 +3,7 @@ My solutions to competitive programming problems on Kattis
 
 | Problem  | Source | Language |
 | ------------- | ------------- | ----------|
+| [Bee House Perimeter](https://open.kattis.com/problems/beehouseperimeter) | ICPC SG Preliminary Contest 2018 | Java |
 | [Bijele](https://open.kattis.com/problems/bijele)  | Croatian Open Competition in Informatics 2007/2008, contest #2  | Java |
 | [Herman](https://open.kattis.com/problems/herman) | Croatian Open Competition in Informatics 2006/2007, contest #1 | Java |
 | [Moscow Dream](https://open.kattis.com/problems/moscowdream) | The 2019 ICPC Asia Danang Regional Contest | Java |
