@@ -9,8 +9,9 @@ public class MoscowDream {
 	       	int n = sc.nextInt();        
 	       	System.out.println(a > 0 && b > 0 && c > 0 && a + b + c >= n && n >= 3
 			       	? "YES"
-			       	: "NO");
-
+					   : "NO");
+					   
+		sc.close();
 	}
 }
 

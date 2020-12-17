@@ -7,10 +7,12 @@ public class Bijele {
 
 		int[] def = {1, 1, 2, 2, 2, 8};
 
-		for(int i = 0; i < def.length; i++) 
+		for(int i = 0; i < def.length; i++) {
 			System.out.print(def[i] - sc.nextInt() + " ");
 			System.out.println();
-	
+		}
+		
+	sc.close();
 	}}
 
 

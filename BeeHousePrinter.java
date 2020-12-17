@@ -1,14 +1,13 @@
 import java.io.*;
-import java.util.*;
 
-public class beehouseperimeter {
+class beeHousePrinter {
     public static void main(String[] args) throws Exception {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter dc = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int r = Integer.parseInt(sc.readLine().split(" ")[0]);
         HexGrid grid = new HexGrid(r);
-
+ 
         for (String s : sc.readLine().split(" ")) {
             grid.mark(Integer.parseInt(s));
             grid.calcPerimeter();

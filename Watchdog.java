@@ -1,10 +1,3 @@
-package Solutions;
-
-/**
- *
- * @author Ming
- */
-
 import java.io.*;
 import java.util.*;
 

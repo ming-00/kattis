@@ -21,6 +21,7 @@ public class ReversedBinaryNumbers {
 		int num = sc.nextInt();
 
 		System.out.println(converter(num));
+		sc.close();
 	}
 }
 
