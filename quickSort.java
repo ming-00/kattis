@@ -54,12 +54,14 @@ public class quickSort {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter array size: ");
         int arrSize = sc.nextInt() + 1;
         int[] arr = new int[arrSize];
         for (int i = 0; i < arrSize - 1; i++) {
+            System.out.println("Enter next array element: ");
             arr[i] = sc.nextInt();
         }
-        arr[arrSize - 1] = 1000000;
+        arr[arrSize - 1] = Integer.MAX_VALUE;
         sc.close();
 
 
