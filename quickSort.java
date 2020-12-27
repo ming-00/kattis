@@ -28,7 +28,7 @@ public class quickSort {
                 lowerCounter++;
             }
             while (lowerCounter < upperCounter && arr[upperCounter] > pivot) {
-                    upperCounter--;
+                upperCounter--;
             }
             if (lowerCounter < upperCounter) {
                 swap(arr,lowerCounter,upperCounter);
@@ -57,7 +57,7 @@ public class quickSort {
         System.out.println("Enter array size: ");
         int arrSize = sc.nextInt() + 1;
         int[] arr = new int[arrSize];
-        
+
         for (int i = 0; i < arrSize - 1; i++) {
             System.out.println("Enter next array element: ");
             arr[i] = sc.nextInt();
